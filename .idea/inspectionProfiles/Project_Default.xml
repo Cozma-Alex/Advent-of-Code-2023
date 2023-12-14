@@ -1,0 +1,42 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DotEnvLowercaseKeyInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="63" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTarget" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyArgumentListInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyBroadExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPropertyDefinitionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="itertools.permutations.__getitem__" />
+          <option value="_random.random.uniform" />
+          <option value="_random.random.choices" />
+          <option value="_collections_abc.dict_keys.__getitem__" />
+          <option value="_random.random.randint" />
+          <option value="run.OPEN_WEATHER_API_KEY" />
+          <option value="list.get" />
+          <option value="main.*" />
+          <option value="PySide6.QtCore.Qt.*" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SqlResolveInspection" enabled="true" level="ERROR" enabled_by_default="true">
+      <option name="suppressForPossibleStringLiterals" value="true" />
+    </inspection_tool>
+  </profile>
+</component>
