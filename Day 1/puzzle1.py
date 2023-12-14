@@ -1,4 +1,4 @@
-with (open('input-puzzle1.txt', 'r') as file):
+with (open('input-puzzle.txt', 'r') as file):
     contents = file.readlines()
     sums = 0
     for line in contents:
